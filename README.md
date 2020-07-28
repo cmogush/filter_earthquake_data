@@ -1,5 +1,5 @@
-# search_filter_sort_earthquake_data
-Program to implement search, filter and sort data from earthquakes.
+# search_filter_earthquake_data
+Program to implement search and filter data from earthquakes.
 
 ## Searching Earthquake Data
 
