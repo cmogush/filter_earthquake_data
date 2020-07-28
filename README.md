@@ -30,3 +30,6 @@ Program to implement various Filters on earthquake data
 * <b>indexOfLargest</b>
 * <b>getLargest</b>
 
+Links to exercises:
+* https://www.coursera.org/learn/java-programming-design-principles/supplement/3RkuE/programming-exercise-searching-earthquake-data
+* https://www.coursera.org/learn/java-programming-design-principles/supplement/yzFlm/programming-exercise-filtering-data
