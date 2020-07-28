@@ -1,5 +1,7 @@
-# filter_earthquake_data
-Program to implement various Filters on earthquake data
+# search_filter_sort_earthquake_data
+Program to implement search, filter and sort data from earthquakes.
+
+##Searching Earthquake Data
 
 <b>Location</b> - class from the Android platform and revised for this program, a data class representing a geographic location. One of the constructors has parameters latitude and longitude, and one of the public methods is distanceTo.
 
@@ -29,6 +31,8 @@ Program to implement various Filters on earthquake data
 * <b>findLargestQuakes</b> - reads in earthquake data from a source and storing them into an ArrayList of type QuakeEntry. Then it prints all the earthquakes and how many earthquakes that were from the source. 
 * <b>indexOfLargest</b> -  has one parameter, an ArrayList of type QuakeEntry named data. This method returns an integer representing the index location in data of the earthquake with the largest magnitude.
 * <b>getLargest</b> - has two parameters, an ArrayList of type QuakeEntry named quakeData and an integer named howMany. This method returns an ArrayList of type QuakeEntry of the top howMany largest magnitude earthquakes from quakeData. The quakes returned are in the ArrayList in order by their magnitude, with the largest magnitude earthquake in index position 0. If quakeData has fewer than howMany earthquakes, then the number of earthquakes returned in the ArrayList is equal to the number of earthquakes in quakeData. This method calls the method <b>indexOfLargest</b>.
+
+##Filtering Earthquake Data
 
 Links to exercises:
 * https://www.coursera.org/learn/java-programming-design-principles/supplement/3RkuE/programming-exercise-searching-earthquake-data
