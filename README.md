@@ -7,9 +7,7 @@ Program to implement search and filter data from earthquakes.
 
 <b>QuakeEntry</b> - class which has a constructor that requires latitude, longitude, magnitude, title, and depth. It has several get methods and a toString method.
 
-<b>EarthQuakeParser</b> - class which has a read method with one String parameter that represents an XML earthquake data file and returns an ArrayList of QuakeEntry objects. Contains the following methods:
-* <b>read</b>
-* <b>main</b>
+<b>EarthQuakeParser</b> - class which has a read method with one String parameter that represents an XML earthquake data file and returns an ArrayList of QuakeEntry objects.
 
 <b>EarthQuakeClient</b> - class which creates an EarthQuakeParser to read in an earthquake data file, creating an ArrayList of QuakeEntrys. You can test the program with the method createCSV to store an ArrayList of the earthquake data and print a CSV file. Contains the following methods:
 * <b>filterByMagnitude</b> - has two parameters, an ArrayList of type QuakeEntry named quakeData, and a double named magMin. Returns an ArrayList of type QuakeEntry of all the earthquakes from quakeData that have a magnitude larger than magMin.
